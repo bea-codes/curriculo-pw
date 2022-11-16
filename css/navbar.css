@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    grid-column: 1/1;
+    margin: 7%;
+}
+
+.navbar ul, li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.nav-link[aria-current="page"]{
+    text-decoration: underline black;
+}
